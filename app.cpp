@@ -83,15 +83,15 @@ To run:
 		(uint8_t)((addr)&0xFF)
 
 // env constants
-uint32_t MY_DECLARED_IP = RTE_IPV4(192, 168, 1, 10);
-struct rte_ether_addr BACKEND_MAC_1 = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
-uint32_t BACKEND_IP_1 = RTE_IPV4(192, 168, 1, 21);
-int BACKEND_1_PORT_RANGE_START = 8100;
-int BACKEND_1_PORT_RANGE_END = 8199;
-struct rte_ether_addr BACKEND_MAC_2 = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
-uint32_t BACKEND_IP_2 = RTE_IPV4(192, 168, 1, 22);
-int BACKEND_2_PORT_RANGE_START = 8200;
-int BACKEND_2_PORT_RANGE_END = 8299;
+uint32_t                MY_DECLARED_IP              = RTE_IPV4(192, 168, 1, 10);
+struct rte_ether_addr   BACKEND_MAC_1               = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
+uint32_t                BACKEND_IP_1                = RTE_IPV4(192, 168, 1, 21);
+int                     BACKEND_1_PORT_RANGE_START  = 8100;
+int                     BACKEND_1_PORT_RANGE_END    = 8199;
+struct rte_ether_addr   BACKEND_MAC_2               = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
+uint32_t                BACKEND_IP_2                = RTE_IPV4(192, 168, 1, 22);
+int                     BACKEND_2_PORT_RANGE_START  = 8200;
+int                     BACKEND_2_PORT_RANGE_END    = 8299;
 
 
 // initialize port (nic)
