@@ -16,11 +16,11 @@ To run:
 - Machine 2 (backends)
   - Create a VM on Hyper-V
   - Add another 2 interfaces (bound to an external virtual switch), they will server as the 2 backends
-    (we can use 2 machines just as well, but it's simpler)
-  - Write down the IP and MAC addresses, you'll use it for the env constants
+    (we can just as well use 2 machines, but this is simpler and functionally similar)
+  - Write down their IP and MAC addresses, you'll use it for the env constants
 - Update env constants below
 - Build and run this app on Machine 1
-- Start multiple servers on machine 2, from separate termnals:
+- Start multiple servers on machine 2, from separate terminals (the following commands will listen on all interfaces):
   - python3 -m http.server 8150
   - python3 -m http.server 8250
   - python3 -m http.server 8350
